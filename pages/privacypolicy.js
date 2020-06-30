@@ -1,8 +1,9 @@
 import React from 'react'
+import Layout from '../components/Layout'
 
 export default () => (
-  <>
-    <strong>Privacy Policy</strong>
+  <Layout>
+    <h1>Privacy Policy</h1>
     <p>
       Simon Frisk built the Bookii app as a Freemium app. This SERVICE is
       provided by Simon Frisk at no cost and is intended for use as is.
@@ -176,5 +177,5 @@ export default () => (
         App Privacy Policy Generator
       </a>
     </p>
-  </>
+  </Layout>
 )
