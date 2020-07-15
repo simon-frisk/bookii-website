@@ -7,7 +7,7 @@ export default ({ children }) => {
         margin: '6vw auto',
         maxWidth: 600,
         width: '92%',
-        fontFamily: 'Sans-serif',
+        fontFamily: 'Arial Rounded MT Bold, Sans-serif',
       }}
     >
       {children}
